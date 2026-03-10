@@ -1,0 +1,37 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 110px;
+    /* To prevent overlapping with AI Chat */
+    z-index: 999;
+}
+
+.scroll-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: var(--shadow-md);
+    opacity: 0.8;
+    transition: var(--transition);
+}
+
+.scroll-btn:hover {
+    opacity: 1;
+    background: var(--primary-light);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+}
+
+@media screen and (max-width: 480px) {
+    .scroll-to-top {
+        bottom: 110px;
+        /* If chat is at right bottom, move scroll top up */
+        right: 30px;
+    }
+}
