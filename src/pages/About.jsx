@@ -20,10 +20,12 @@ const About = () => {
                 <section className="section">
                     <div className="container about-container">
                         <div className="about-image-wrapper">
-                            <div className="about-image-standin glass shadow-premium">
-                                <FaBookOpen className="standin-icon" />
-                                <h3 className="standin-text">Hiren K Soni</h3>
-                            </div>
+                            <img 
+                                src="/Office_image.png" 
+                                alt="Hiren K Soni Office" 
+                                className="about-office-image glass shadow-premium"
+                                loading="lazy"
+                            />
                         </div>
 
                         <div className="about-content">

@@ -44,7 +44,7 @@ const Footer = () => {
                     <ul>
                         <li><FaMapMarkerAlt /> Ahmedabad Gujarat India 380015</li>
                         <li><FaPhone /> +91 9898243002</li>
-                        <li><FaEnvelope /> CAHIRENSONI2001@gmail.com</li>
+                        <li><FaEnvelope /> cahirensoni2001@gmail.com</li>
                     </ul>
                 </div>
             </div>
